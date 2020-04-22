@@ -1,9 +1,10 @@
 public class Twofer {
 
     String twofer(String name) {
-        // complete the function
-        return null;
-    }
-
-
+        if(name== null){
+            return "One for you, one for me.";
+        }else{
+            return "One for "+name+", one for me.";
+        }
+     }
 }
